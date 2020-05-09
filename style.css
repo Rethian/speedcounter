@@ -1,0 +1,149 @@
+body {
+	height: 100%;
+	margin: 0;
+	background-color: #30343F;
+	color: #FAFAFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+/* --- Header --- */
+
+header {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+	background-color: #273469;
+	
+}
+
+#title {
+	color: #F5D547;
+	font-style: oblique;
+	margin: 10px 0 0 0;
+}
+
+
+nav {
+	margin: 20px 30px 20px 50px;
+	align-self: start;
+	display: flex;
+	
+	align-content: space-around;
+	/* flex-direction: row; */
+}
+.navslot {
+	padding: 8px 5px;
+	background-color: #30343F;
+	
+	border-radius: 3px;
+}
+.navslot a {
+	text-decoration: none;
+	color: #F5D547;
+
+}
+.navslot:hover {
+	background-color: #EBEBD3;
+	cursor: pointer;
+}
+
+/* --- Counter --- */
+
+
+main {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+
+
+.counter {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+	
+
+	padding: 10px 5px;
+	margin: 70px 20px;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.screen {
+	font-size: 40px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	text-align: center;
+	background-color: #30343F;
+	padding: 5px 3px;
+	border: 1px solid rgb(19, 21, 26);
+	border-radius: 3px;
+
+}
+
+.player {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 300px;
+	width: 150px;
+	margin: 5px 5px;
+	padding: 0px 20px;
+	background-color: #273469;
+	border: 2px solid rgb(19, 21, 26);
+	border-radius: 10px;
+}
+.board {
+	display: flex;
+	justify-content: space-evenly;
+
+	width: inherit;
+}
+button {
+		padding: 8px 8px;
+	border-radius: 8px;
+	margin: 4px;
+	border: 0;
+	box-sizing: border-box;
+	background-color: #F5D547;
+	color: #30343F;
+	font-family: 'Courier New', Courier, monospace;
+}
+.more {
+	height: 50px;
+	width: 50px;
+}
+
+.less {
+	height: 30px;
+	width: 30px;
+}
+.reset {
+	height: 30px;
+	width: 30px;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #e3a547;
+	transform: scale(1.05);
+}
+
+.playerName {
+	background-color: #30343F;
+	/* max-width: 80%; */
+	font-size: 13px;
+	font-weight: bold;
+	padding: 2px 0;
+	color: #F5D547;
+	border: 1px solid;
+	border-radius: 2px;
+	text-align: center;
+
+}
