@@ -2,8 +2,10 @@
 const countingButtons = document.querySelectorAll('.player button');
 const addPlayerButton = document.querySelector('.add-player');
 const counter = document.querySelector('.counter')
-// const allScreens = document.querySelectorAll('.screen');
 
+
+
+// fonction d'ajout d'un compteur 
 const addPlayer = function (){
   const player = document.createElement('div');
   player.classList.add('player');
