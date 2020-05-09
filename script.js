@@ -24,7 +24,7 @@ const addPlayer = function (){
 };
 
 // fonction de comptage
-const counting = async function(event){ 
+const counting = function(event){ 
   // identification du bouton
   const button = event.target;
 
