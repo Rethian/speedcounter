@@ -1,7 +1,7 @@
 
 const countingButtons = document.querySelectorAll('.player button');
 const addPlayerButton = document.querySelector('.add-player');
-const counter = document.querySelector('.counter')
+const counter = document.querySelector('.counter');
 
 
 
@@ -17,7 +17,7 @@ const addPlayer = function (){
     <button data-counterid="${counter.childElementCount + 1}" class="more">+</button>
     <button data-counterid="${counter.childElementCount + 1}" class="less">-</button>
     <button data-counterid="${counter.childElementCount + 1}" class="reset">0</button>
-  </div>`
+  </div>`;
   counter.appendChild(player);
   // return player;
   
